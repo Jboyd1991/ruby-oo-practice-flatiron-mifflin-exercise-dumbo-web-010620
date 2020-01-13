@@ -1,11 +1,9 @@
 class Employee
   attr_reader :name, :department, :age, :employees
   
-  def initialize(name, department, age, employees)
+  def initialize(name, salary)
       @name = name 
-      @department = department
-      @age = age 
-      @employees = employees 
+      @salary = salary  
   end 
   
 end
