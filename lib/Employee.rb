@@ -10,9 +10,6 @@ class Employee
       @@all << self 
   end 
   
-  def self.manager_name 
-      manager_name
-  end 
   
   def self.all 
       @@all 
