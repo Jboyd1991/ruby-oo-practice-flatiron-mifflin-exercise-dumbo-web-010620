@@ -3,12 +3,16 @@ class Employee
   
   @@all = [] 
   
-  def initialize(name, salary)
+  def initialize(name, salary, manager_name)
       @name = name 
       @salary = salary
+      @manager_name = manager_name
       @@all << self 
   end 
   
+  def manager_name 
+      
+  end 
   
   def self.all 
       @@all 
