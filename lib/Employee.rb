@@ -11,7 +11,7 @@ class Employee
   end 
   
   def manager_name 
-      
+      self.manager_name
   end 
   
   def self.all 
